@@ -33,7 +33,7 @@ routers A through C where they are then stored in the broker attached
 to router C.
 
 <p align="center">
-![Demo Scenario](images/AMQ-Interconnect-Scenario.png)
+  <img src="images/AMQ-Interconnect-Scenario.png"/>
 </p>
 
 Router C is then reconfigured to connect to router D, establishing
