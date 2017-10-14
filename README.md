@@ -195,12 +195,11 @@ In the RECEIVER, attempt to receive the messages using:
 
     cd /usr/share/qpid-proton/examples/python/
     python simple_recv.py \
-        -a router-a.resilientnet.svc.cluster.local:6000/101st_Airborne_Division/506th_Parachute_Infantry_Regiment/HQ \
+        -a router-d.resilientnet.svc.cluster.local:6000/101st_Airborne_Division/506th_Parachute_Infantry_Regiment/HQ \
         -m 5
 
-This will block since the RECEIVER has neither a path to actually
-receive the messages from the sender nor a path to get the messages
-from the broker.
+This will block since the RECEIVER does not have a path to actually
+receive the messages from the broker.
 
 In the HOST, change the QDROUTER_CONF environment variable for
 router-c which will cause it to redeploy with a connection to both
