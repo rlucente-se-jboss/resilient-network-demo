@@ -32,7 +32,7 @@ attempts to send messages to the receiver, the messages transit
 routers A through C where they are then stored in the broker attached
 to router C.
 
-![Demo Scenario](images/AMQ-Interconnect-Scenario.svg)
+![Demo Scenario](images/AMQ-Interconnect-Scenario.png)
 
 Router C is then reconfigured to connect to router D, establishing
 a path for the messages held in the broker attached to router C to
