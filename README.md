@@ -1,7 +1,7 @@
 # Resilient Networking Demo
 This demo is based on [section 10.2 of the A-MQ Interconnect User
 Guide](https://access.redhat.com/documentation/en-us/red_hat_jboss_amq/7.0/html-single/using_amq_interconnect/#path_redundancy_and_temporal_decoupling)
-titled "Path Redundancy and Temporal Decoupling".  This demo also requires the [Container Development Kit](https://developers.redhat.com/products/cdk/download/).  Download the latest release and then rename to `minishift`.
+titled "Path Redundancy and Temporal Decoupling".  This demo also requires the [Container Development Kit](https://developers.redhat.com/products/cdk/download/).  Download the latest release, rename it to `minishift`, and make sure it's on your executable search path.
 
 ## Background
 The Advanced Message Queuing Protocol (AMQP) 1.0 is a vendor-neutral,
